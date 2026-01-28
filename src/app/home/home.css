@@ -1,0 +1,13 @@
+/* Importing a simple sans-serif font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:host {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text);
+}
+
+/* Optional: Default smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}

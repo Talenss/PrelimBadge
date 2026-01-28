@@ -1,0 +1,29 @@
+.main-wrapper {
+	min-height: 100vh;
+	background: transparent;
+	color: var(--text);
+	display: flex;
+	flex-direction: column;
+}
+
+header, nav, footer { color: var(--muted-text); font-size: 0.95rem; }
+
+.content-section { padding: 2rem 1rem; max-width: 1200px; margin: 0 auto; }
+
+.banner-area { padding: 4rem 1rem; text-align: center; }
+
+.primary-button { 
+	background: var(--accent); 
+	color: #ffffff; 
+	border: 2px solid var(--accent); 
+	padding: 0.875rem 1.5rem; 
+	border-radius: 4px;
+	font-weight: 500;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.primary-button:hover {
+	background: transparent;
+	color: var(--accent);
+}
